@@ -1,0 +1,7 @@
+SQLite format 3   @                                                                     -�
+� 8 8�                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ��tableuseruserCREATE TABLE user (
+	username INTEGER NOT NULL,
+	password VARCHAR(80),
+	PRIMARY KEY (username),
+)'; indexsqlite_autoindex_user_1user   
+    

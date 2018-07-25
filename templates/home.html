@@ -7,6 +7,22 @@ USER:<input type="text" id="name" name="username">
 PASSWORD:<input type="password" id="pass" name="password">
 <button class="btn btn-primary">submit</button>
 </form>-->
-username:{{username}}
-password:{{password}}
+
+<table class=".table" border="10px">
+         <thead>
+            <tr>
+               <th>Name</th>
+               <th>Pass</th>
+            </tr>
+         </thead>
+
+         <tbody>
+            {% for student in students %}
+               <tr>
+                  <td>{{ student.user }}</td>
+                  <td>{{ student.passw }}</td>
+               </tr>
+            {% endfor %}
+         </tbody>
+      </table>
 {% endblock %}

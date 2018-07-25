@@ -1,0 +1,10 @@
+CREATE TABLE students (
+ user integer PRIMARY KEY,
+ passw text NOT NULL,
+);
+
+
+INSERT INTO students ('user','passw') VALUES('089','asdf')
+INSERT INTO students ('user','passw') VALUES('081','asd')
+INSERT INTO students ('user','passw') VALUES('082','asf')
+INSERT INTO students ('user','passw') VALUES('083','adf')
